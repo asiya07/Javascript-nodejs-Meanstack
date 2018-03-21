@@ -1,0 +1,43 @@
+<!--
+Filename: d:\node_demo\index.html
+Path: d:\node_demo
+Created Date: Tuesday, March 20th 2018, 10:23:05 am
+Author: asiya
+
+Copyright (c) 2018 Your Company
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <span>Enter firstname:<span><br>
+     <input type="text" id="message" value="">
+     <button type="button" id="mybutton">Firstname</button><br>
+     <span>Enter Lastname:</span><br>
+     <input type="text" id="message" value="">
+     <button type="button" id="button">Lastname</button>
+     
+     <script>
+
+        var a = document.getElementById("mybutton");
+        a.addEventListener('click',function(){
+            alert(document.getElementById("message").value);
+            //console.log(message.value);
+        });
+        var msg = document.getElementById("button");
+        msg.addEventListener('click',function(){
+            alert(document.getElementById("message").value);
+            //console.log(message.value);
+        });
+        </script>   
+</body>
+
+</html>

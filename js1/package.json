@@ -1,0 +1,20 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "This is the demo for nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "express"
+  ],
+  "author": "asiya",
+  "license": "MIT"
+}
